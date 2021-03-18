@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Teclado JS</title>
 </head>
 
 <body>
 
-    <h1>TECLADO JS</h1>
+    <div class="titulo">
+        <h1 >TECLADO JS</h1>
+    </div>
 
-    <div id="divTexto">AQUI VA EL TEXTO</div>
+    <div class="divTexto" id="divTexto"></div>
 
-    <table>
+    <table class="tabla">
         <tr>
             <td><button id="btnNum1">1</button></td>
             <td><button id="btnNum2">2</button></td>
@@ -38,7 +41,7 @@
             <td><button id="btnI">I</button></td>
             <td><button id="btnO">O</button></td>
             <td><button id="btnP">P</button></td>
-            <td><button id="btnBorrar">Borrar</button></td>
+            <td><button class="btnEspaecial" id="btnBorrar">Borrar</button></td>
 
 
 
@@ -54,7 +57,7 @@
             <td><button id="btnK">K</button></td>
             <td><button id="btnL">L</button></td>
             <td><button id="btnÑ">Ñ</button></td>
-            <td><button id="btnEnter">Enter</button></td>
+            <td><button class="btnEspaecial" id="btnEnter">Enter</button></td>
         </tr>
 
         <tr>
@@ -68,7 +71,8 @@
             <td><button id="btnComa">,</button></td>
             <td><button id="btnPunto">.</button></td>
             <td><button id="btnGuion">-</button></td>
-            <td><button id="btnEspacio">.____.</button></td>
+            <td><button class="btnEspaecial" id="btnEspacio">.____.</button>
+            </td>
         </tr>
     </table>
 

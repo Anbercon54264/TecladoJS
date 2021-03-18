@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tabla{
+    margin: auto;
+    padding: 15px;
+}
+td{
+    padding: 2px;
+}
+
+.titulo{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.divTexto{
+    margin: auto;
+    border: solid;
+    height: 50px;
+    width: 680px;
+    padding: 15px 0px 5px 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: gainsboro;
+    background-color:rgb(39, 36, 36);
+    border-radius: 15px;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+.btnEspaecial{
+    width: 120px;
+    border-radius: 10px;
+}
